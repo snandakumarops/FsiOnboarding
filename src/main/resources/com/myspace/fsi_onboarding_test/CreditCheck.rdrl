@@ -1,0 +1,14 @@
+package com.myspace.fsi_onboarding_test;
+
+import java.lang.Number;
+
+rule "CreditCheck"
+	dialect "mvel"
+	ruleflow-group "credit-check"
+	when
+		cust : Customer( creditScore > 700 )
+	then
+		modify( cust ) {
+				setCreditApproved( true )
+		}
+end

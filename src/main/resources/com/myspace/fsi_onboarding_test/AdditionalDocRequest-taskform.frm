@@ -1,0 +1,1 @@
+{"id":"1f07cbd4-9145-4682-94eb-c17b7028cdd6","name":"AdditionalDocRequest-taskform.frm","model":{"taskName":"AdditionalDocRequest","processId":"fsi_onboarding.OnboardingProcess","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
